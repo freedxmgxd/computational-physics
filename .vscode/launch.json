@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "(lldb) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Build Current File with Bazel",
+            "stopOnEntry": false,
+            "sourceMap": {
+                "/proc/self/cwd": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Run Current File with Bazel",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/bazel-bin/${relativeFileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "Run Current File with Bazel",
+            "stopOnEntry": false
+        }
+    ]
+}
