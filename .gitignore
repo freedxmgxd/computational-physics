@@ -1,0 +1,5 @@
+bazel-bin
+bazel-computational-physics
+bazel-out
+bazel-testlogs
+.vscode
