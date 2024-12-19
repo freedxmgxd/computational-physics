@@ -3,3 +3,4 @@ bazel-computational-physics
 bazel-out
 bazel-testlogs
 .vscode
+MODULE.bazel.lock
