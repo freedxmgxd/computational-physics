@@ -9,7 +9,7 @@ import os
 from scipy import stats
 
 # Substitua com sua chave API válida do Materials Project
-API_KEY = "bMpDCd5C2QI8845pHRTxb4JMk496t9Ru"
+API_KEY = ""
 
 # Defina os elementos comuns para A e B em perovskitas
 A_elements = ["Ca", "Sr", "Ba", "K", "Na", "Pb"]
