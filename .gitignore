@@ -4,3 +4,5 @@ bazel-out
 bazel-testlogs
 .vscode
 MODULE.bazel.lock
+exercicio8/questao1/input
+exercicio8/questao1/output
